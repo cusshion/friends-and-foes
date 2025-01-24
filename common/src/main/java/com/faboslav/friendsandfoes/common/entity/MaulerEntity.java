@@ -52,13 +52,13 @@ import java.util.function.Predicate;
 @SuppressWarnings({"rawtypes", "unchecked"})
 public final class MaulerEntity extends PathAwareEntity implements Angerable, AnimatedEntity
 {
-	private static final int HEALTH = 20;
-	private static final float ANGERED_MOVEMENT_SPEED = 0.5F;
-	private static final float MOVEMENT_SPEED = 0.3F;
-	private static final float ATTACK_DAMAGE = 8.0F;
+	private static final int HEALTH = 40;
+	private static final float ANGERED_MOVEMENT_SPEED = 0.7F;
+	private static final float MOVEMENT_SPEED = 0.4F;
+	private static final float ATTACK_DAMAGE = 9.0F;
 	private static final int MAXIMUM_STORED_EXPERIENCE_POINTS = 1395;
-	public static final int MIN_TICKS_UNTIL_NEXT_BURROWING = 3000;
-	public static final int MAX_TICKS_UNTIL_NEXT_BURROWING = 6000;
+	public static final int MIN_TICKS_UNTIL_NEXT_BURROWING = 1800;
+	public static final int MAX_TICKS_UNTIL_NEXT_BURROWING = 3600;
 	private static final Predicate<Entity> PREY_PREDICATE_FILTER;
 
 	private static final String TYPE_NBT_NAME = "Type";
