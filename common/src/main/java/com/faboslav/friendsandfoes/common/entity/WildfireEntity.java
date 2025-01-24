@@ -37,11 +37,11 @@ public final class WildfireEntity extends HostileEntity
 	public static final float GENERIC_ATTACK_DAMAGE = 8.0F;
 	public static final float GENERIC_FOLLOW_RANGE = 32.0F;
 
-	public static final int DEFAULT_ACTIVE_SHIELDS_COUNT = 4;
-	public static final int DEFAULT_TICKS_UNTIL_SHIELD_REGENERATION = 300;
-	public static final int DEFAULT_SUMMONED_BLAZES_COUNT = 0;
+	public static final int DEFAULT_ACTIVE_SHIELDS_COUNT = 5;
+	public static final int DEFAULT_TICKS_UNTIL_SHIELD_REGENERATION = 240;
+	public static final int DEFAULT_SUMMONED_BLAZES_COUNT = 1;
 
-	public static final int MAXIMUM_SUMMONED_BLAZES_COUNT = 2;
+	public static final int MAXIMUM_SUMMONED_BLAZES_COUNT = 3;
 
 	private static final String ACTIVE_SHIELDS_NBT_NAME = "ActiveShieldsCount";
 	private static final String TICKS_UNTIL_SHIELD_REGENERATION_NBT_NAME = "TicksUntilShieldRegeneration";
@@ -57,7 +57,7 @@ public final class WildfireEntity extends HostileEntity
 		this.setPathfindingPenalty(PathNodeType.LAVA, 8.0F);
 		this.setPathfindingPenalty(PathNodeType.DANGER_FIRE, 0.0F);
 		this.setPathfindingPenalty(PathNodeType.DAMAGE_FIRE, 0.0F);
-		this.experiencePoints = 10;
+		this.experiencePoints = 35;
 	}
 
 	@Nullable
