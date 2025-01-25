@@ -1,25 +1,54 @@
 {
-	"type": "minecraft:entity",
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 3.0,
-								"max": 5.0
-							},
-							"add": false
-						}
-					],
-					"name": "friendsandfoes:wildfire_crown_fragment"
-				}
-			]
-		}
-	]
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 8.0
+              },
+              "add": false
+            }
+          ],
+          "name": "friendsandfoes:wildfire_crown_fragment"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "friendsandfoes:wildfire_crown"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 12.0,
+                "max": 32.0
+              },
+              "add": false
+            }
+          ],
+          "name": "netherarchives:blaze_lantern"
+        }
+      ]
+    }
+  ]
 }
