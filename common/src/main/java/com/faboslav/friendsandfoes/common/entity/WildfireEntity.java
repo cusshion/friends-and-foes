@@ -37,7 +37,7 @@ public final class WildfireEntity extends HostileEntity
 	public static final float GENERIC_ATTACK_DAMAGE = 8.0F;
 	public static final float GENERIC_FOLLOW_RANGE = 32.0F;
 
-	public static final int DEFAULT_ACTIVE_SHIELDS_COUNT = 5;
+	public static final int DEFAULT_ACTIVE_SHIELDS_COUNT = 4;
 	public static final int DEFAULT_TICKS_UNTIL_SHIELD_REGENERATION = 240;
 	public static final int DEFAULT_SUMMONED_BLAZES_COUNT = 1;
 
